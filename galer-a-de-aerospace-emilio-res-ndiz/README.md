@@ -1,6 +1,6 @@
 # Galería de Aerospace. Emilio Reséndiz.
 
-A Pen created on CodePen.
+Galería de imágenes sobre ingeniería aeroespacial hecha en Codepen.
 
 Original URL: [https://codepen.io/EMILIO-RESENDIZBURGOS/pen/dPYEyJZ](https://codepen.io/EMILIO-RESENDIZBURGOS/pen/dPYEyJZ).
 
