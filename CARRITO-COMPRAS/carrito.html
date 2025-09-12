@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/stylecarrito.css">
+</head>
+<body class="mi-fondo">
+
+  <div class="container py-4">
+    <h1 class="text-center mb-4" style="color:white">Timeless</h1>
+
+    <div class="row">
+      <!-- Productos -->
+      <div class="col-md-8">
+        <div class="row g-3">
+          <!-- Card Producto 1 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IMG/audemars.jpg" class="card-img-top" alt="Producto 1" width="240" height="240">
+              <div class="card-body">
+                <h5 class="card-title">Audemars Piguet</h5>
+                <button class="btn mi-boton w-100" onclick="agregarProducto('Audemars Piguet')">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card Producto 2 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IMG/baume.jpg" class="card-img-top" alt="Producto 2" width="240" height="240">
+              <div class="card-body">
+                <h5 class="card-title">Baume Mercier</h5>
+                <button class="btn mi-boton w-100" onclick="agregarProducto('Baume Mercier')">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card Producto 3 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IMG/nibosi.jpg" class="card-img-top" alt="Producto 3" width="240" height="240">
+              <div class="card-body">
+                <h5 class="card-title">Nibosi</h5>
+                <button class="btn mi-boton w-100" onclick="agregarProducto('Nibosi')">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card Producto 4 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IMG/bulova.jpg" class="card-img-top" alt="Producto 4" width="240" height="240">
+              <div class="card-body">
+                <h5 class="card-title">Bulova</h5>
+                <button class="btn mi-boton w-100" onclick="agregarProducto('Bulova')">Agregar</button>
+              </div>
+            </div>
+          </div>
+          <!-- Card Producto 5 -->
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IMG/steelco.jpg" class="card-img-top" alt="Producto 5" width="240" height="240">
+              <div class="card-body">
+                <h5 class="card-title">Steelco</h5>
+                <button class="btn mi-boton w-100" onclick="agregarProducto('Steelco')">Agregar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carrito -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header bg-dark text-white">Mi colección</div>
+          <ul class="list-group list-group-flush" id="lista-carrito">
+            <li class="list-group-item text-muted text-center">No hay productos</li>
+          </ul>
+          <div class="card-footer text-center">
+            <button class="btn btn-danger" onclick="eliminarProducto()">Eliminar último producto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer id="contacto" class="footer">
+       <div class="footer-content">
+        <!--
+          <footer>: Pie de página con información de contacto, copyright, etc.
+          - Puede usarse también al final de <article> o <section>.
+        -->
+        <address>
+            <!--
+              <address>: Información de contacto (física, email, teléfono).
+              - Los navegadores/SEO lo asocian a datos de ubicación.
+            -->
+
+<a href="https://maps.app.goo.gl/RFDqRTozLoiSU4HL8" 
+target="_blank" rel="noreference noopener">Av. Paseo de la Reforma #222, Ciudad de México </a>
+
+            <br>
+            Teléfono: <a href="tel:+525610977021">+52 56 1097 7021</a>
+            <!-- 
+              href="tel:+123456789": Enlace para llamar desde móviles.
+            -->
+        </address>
+        <!-- Copyright -->
+        <p class="copyright">&copy; 2025 Timeless</p>
+        
+        <!-- Redes sociales -->
+        <div class="social">
+            <a href="#" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yuritsa-paez-a85920121/" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            
+        </div>
+
+      </div>
+    </footer>
+
+  <script src="JS/carrito.js"></script>
+</body>
+</html>

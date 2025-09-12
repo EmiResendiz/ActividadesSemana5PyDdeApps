@@ -1,0 +1,48 @@
+/* Estilo para animaciones de agregado/eliminado */
+.mi-fondo {
+  background-color: #242136;
+}
+
+.mi-boton {
+    background-color: #242136;
+    color: white;
+}
+.mi-boton:hover {
+    background-color: #6E6E8F;
+    color: white
+}
+
+.agregado {
+  background-color: #d4edda !important; /* Verde claro */
+  color: #155724 !important;
+  animation: fade 1s ease-in-out;
+}
+
+.eliminado {
+  background-color: #f8d7da !important; /* Rojo claro */
+  color: #721c24 !important;
+  animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0.3; }
+  to { opacity: 1; }
+}
+
+/* FOOTER */
+.footer {
+    background: #B9B9C7;
+    color: #10102B;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer address {
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+.footer a {
+    color: #2D2D61;
+    text-decoration: none;
+}
